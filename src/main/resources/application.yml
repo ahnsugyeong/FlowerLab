@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/colorproject?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/color_project?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
     username: admin
     password: 12345678
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -14,6 +14,7 @@ spring:
         format_sql: true
         default_batch_fetch_size: 100
   #    open-in-view: false
+        dialect: org.hibernate.dialect.MySQL8Dialect
 
 logging.level:
   org.hibernate.SQL: debug
