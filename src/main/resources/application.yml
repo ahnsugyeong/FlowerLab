@@ -14,7 +14,7 @@ spring:
         format_sql: true
         default_batch_fetch_size: 100
   #    open-in-view: false
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MySQLDialect
 
 logging.level:
   org.hibernate.SQL: debug
