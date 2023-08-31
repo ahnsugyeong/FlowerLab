@@ -1,0 +1,13 @@
+.navbar {
+    margin-top: 52px;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: right;
+}
+
+.navbarMenu {
+    font-size: 14px;
+    color: white;
+    margin: 52px;
+    text-decoration: none;
+}
