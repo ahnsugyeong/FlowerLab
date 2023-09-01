@@ -1,0 +1,162 @@
+body {
+    background-color: #FEFAF4;
+    margin: 0;
+}
+
+.step1-container {
+    height: 100vh;
+    background-color: #FEFAF4;
+    background-image: none;
+    overflow: hidden;
+
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 16fr 1fr 1fr 16fr;
+    grid-template-rows: 1fr 14fr 1fr;
+
+
+    border-bottom: 1px solid #5D4D3A;
+}
+
+.step1-grid-item-1,
+.step1-grid-item-4 {
+    border-left: 1px solid #5D4D3A;
+    border-right: 1px solid #5D4D3A;
+    border-bottom: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-grid-item-5,
+.step1-grid-item-8 {
+    border-left: 1px solid #5D4D3A;
+    border-right: 1px solid #5D4D3A;
+    border-bottom: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-grid-item-9,
+.step1-grid-item-12 {
+    border-left: 1px solid #5D4D3A;
+    border-right: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-grid-item-2,
+.step1-grid-item-6 {
+    border-bottom: 1px solid #5D4D3A;
+    border-right: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-grid-item-10 {
+    border-right: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-grid-item-3,
+.step1-grid-item-7 {
+    border-bottom: 1px solid #5D4D3A;
+    padding: 10px;
+    text-align: center;
+}
+
+.step1-title {
+    color: #5D4D3A;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+    margin-left: 44px;
+    margin-top: 20px;
+}
+
+.step1-content {
+    color: #7C7062;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    margin-left: 44px;
+    margin-top: 12px;
+}
+
+.text-title {
+    color: #5D4D3A;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+
+.content {
+    margin-left: 40px;
+
+    border: none;
+    width: 90%;
+    height: 300px;
+    background-attachment: local;
+    background-color: transparent;
+    background-image:
+        linear-gradient(to right, transparent 10px, transparent 10px),
+        linear-gradient(to left, transparent 10px, transparent 10px),
+        repeating-linear-gradient(transparent, transparent 30px, #ccc 30px, #ccc 31px, transparent 31px);
+    line-height: 24px;
+    resize: none;
+    padding: 4px;
+
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    margin-top: 50px;
+    margin-right: 40px;
+
+}
+
+.content:focus {
+    outline: none;
+}
+
+.step1-grid-item-8 {
+    position: relative;
+}
+
+.step1-next-btn {
+    font-size: 50px;
+    color: #5D4D3A;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.step1-number {
+    color: #5D4D3A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #5D4D3A;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}

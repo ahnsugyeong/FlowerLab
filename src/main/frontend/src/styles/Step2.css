@@ -1,0 +1,85 @@
+body {
+  background-color: #FEFAF4;
+  margin: 0;
+}
+
+.step2-container {
+  height: 100vh;
+  background-color: #FEFAF4;
+  background-image: none;
+  overflow: hidden;
+
+  margin-left: 60px;
+  margin-right: 60px;
+  display: grid;
+  grid-template-rows: 1fr 14fr 1fr;
+
+  border-bottom: 1px solid #5D4D3A;
+}
+
+.step2-grid-item-1,
+.step2-grid-item-2 {
+  border-left: 1px solid #5D4D3A;
+  border-right: 1px solid #5D4D3A;
+  border-bottom: 1px solid #5D4D3A;
+  padding: 10px;
+  text-align: center;
+}
+
+.step2-grid-item-3 {
+  border-left: 1px solid #5D4D3A;
+  border-right: 1px solid #5D4D3A;
+  padding: 10px;
+  text-align: center;
+}
+
+.step2-title {
+  color: #5D4D3A;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+  margin-left: 44px;
+  margin-top: 20px;
+}
+
+.step2-content {
+  color: #7C7062;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  margin-left: 44px;
+  margin-top: 12px;
+}
+
+.step2-grid-item-2 {
+  position: relative;
+}
+
+.step2-next-btn {
+  font-size: 50px;
+  color: #5D4D3A;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.step2-number {
+  color: #5D4D3A;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #5D4D3A;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
