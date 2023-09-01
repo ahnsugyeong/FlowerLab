@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/Step1.css'
+import '../../styles/laboratory/Step1.css'
 
 function Step1() {
 

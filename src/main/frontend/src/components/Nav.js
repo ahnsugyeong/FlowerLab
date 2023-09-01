@@ -16,8 +16,8 @@ function Nav() {
             />
 
             <div className="navbarMenu">
-                <Link className="navbarMenuItem" to={'/boutique'}>BOUTIQUE</Link>
-                <Link className="navbarMenuItem" to={'/about'}>ABOUT</Link>
+                <Link className="navbarMenuItem" to={'/laboratory'}>LABORATORY</Link>
+                <Link className="navbarMenuItem" to={'/'}>ABOUT</Link>
                 <Link className="navbarMenuItem" to={'/market'}>MARKET</Link>
             </div>
 

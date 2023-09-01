@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.about-background-container {
+    background: linear-gradient(165.03deg, #80B5EA 5.4%, #D1C8BD 52.6%, #D5D76A 87.22%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    width: auto;
+    height: 1650px;
+}
+
+.about-info {
+    margin-left: 60px;
+}
+
+.about-title {
+    color: #FFFFFF;
+
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 124px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.about-content {
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    
+}

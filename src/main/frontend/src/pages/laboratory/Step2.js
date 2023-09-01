@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import '../styles/Step2.css';
-import ImageSlider from '../components/ImageSlider';
+import React from 'react';
+import '../../styles/laboratory/Step2.css'
+import ImageSlider from '../../components/ImageSlider';
 
 const Step2 = () => {
 

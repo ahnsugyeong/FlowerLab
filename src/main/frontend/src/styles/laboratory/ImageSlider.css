@@ -68,7 +68,7 @@
 .star {
     width: 20px;
     height: 20px;
-    background-image: url('../assets/star.png');
+    background-image: url('../../assets/star.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 7px;

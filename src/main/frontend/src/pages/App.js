@@ -1,10 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Main from './Main';
-import Recommend from './Recommend';
-import Step1 from './Step1';
-import Step2 from './Step2';
-import Step3 from './Step3';
+import About from './about/About';
+import Laboratory from './laboratory/Laboratory';
+import About1 from './about/About1';
+
+import LaboratoryHeader from './laboratory/LaboratoryHeader';
+import Step1 from './laboratory/Step1';
+import Step2 from './laboratory/Step2';
+import Step3 from './laboratory/Step3';
 
 import '../styles/App.css'
 
@@ -13,14 +16,9 @@ function App() {
     return (
         <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Main />} />
-                    <Route path="/recommend" element={<Recommend />} />
-                    <Route path="/step1" element={<Step1 />} />
-                    <Route path="/step2" element={<Step2 />} />
-                    <Route path="/step3" element={<Step3 />} />
-                    <Route path="/boutique" element={<Main />} />
-                    <Route path="/about" element={<Main />} />
-                    <Route path="/market" element={<Main />} />
+                    <Route path="/" element={<About />} />
+                    <Route path="/laboratory" element={<Laboratory />} />
+                    <Route path="/market" element={<About />} />
                 </Routes>
         </BrowserRouter>
     );

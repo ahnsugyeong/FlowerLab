@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import '../styles/Step3.css';
+import '../../styles/laboratory/Step3.css'
 
 const Step3 = () => {
   const [selectedItem, setSelectedItem] = useState(-1);
@@ -65,7 +65,7 @@ const Step3 = () => {
 
                 <div className="flower-image-container">
                   <img
-                    src={require(`../assets/flower-icon-${index + 1}.png`)}
+                    src={require(`../../assets/flower-icon-${index + 1}.png`)}
                     alt={`${color}에 대한 꽃 이미지`}
                   />
                 </div>
