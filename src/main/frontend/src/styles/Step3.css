@@ -1,11 +1,11 @@
 body {
-  background-color: #FEFAF4;
+  background-color: #FFFFF6;
   margin: 0;
 }
 
 .step3-container {
   height: 100vh;
-  background-color: #FEFAF4;
+  background-color: #FFFFF6;
   background-image: none;
   overflow: hidden;
 
@@ -14,27 +14,27 @@ body {
   display: grid;
   grid-template-rows: 1fr 14fr 1fr;
 
-  border-bottom: 1px solid #5D4D3A;
+  border-bottom: 1px solid #47587A;
 }
 
 .step3-grid-item-1,
 .step3-grid-item-2 {
-  border-left: 1px solid #5D4D3A;
-  border-right: 1px solid #5D4D3A;
-  border-bottom: 1px solid #5D4D3A;
+  border-left: 1px solid #47587A;
+  border-right: 1px solid #47587A;
+  border-bottom: 1px solid #47587A;
   padding: 10px;
   text-align: center;
 }
 
 .step3-grid-item-3 {
-  border-left: 1px solid #5D4D3A;
-  border-right: 1px solid #5D4D3A;
+  border-left: 1px solid #47587A;
+  border-right: 1px solid #47587A;
   padding: 10px;
   text-align: center;
 }
 
 .step3-title {
-  color: #5D4D3A;
+  color: #47587A;
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
@@ -46,7 +46,7 @@ body {
 }
 
 .step3-content {
-  color: #7C7062;
+  color: #797E89;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -61,23 +61,14 @@ body {
   position: relative;
 }
 
-.step3-next-btn {
-  font-size: 50px;
-  color: #5D4D3A;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  cursor: pointer;
-}
-
 .step3-number {
-  color: #5D4D3A;
+  color: #47587A;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: -0.03em;
   text-align: left;
-  color: #5D4D3A;
+  color: #47587A;
   position: absolute;
   right: 20px;
   top: 20px;
@@ -89,10 +80,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 10px;
-  margin: 20px;
   max-width: 80%;
+  
   margin: 70px auto;
-
 
   justify-items: center;
   align-items: center;
@@ -203,4 +193,75 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  border: 8px solid transparent;
+  margin: 5px;
+}
+
+.step3-color-grid-item-1.selected {
+  border: 8px solid #888888;
+
+}
+
+.step3-color-grid-item-2.selected {
+  border: 8px solid #003A5A;
+}
+
+.step3-color-grid-item-3.selected {
+  border: 8px solid #B3B3B3;
+}
+
+.step3-color-grid-item-4.selected {
+  border: 8px solid #FEA725;
+}
+
+.step3-color-grid-item-5.selected {
+  border: 8px solid #FFE49F;
+}
+
+.step3-color-grid-item-6.selected {
+  border: 8px solid #0D298C;
+}
+
+.step3-color-grid-item-7.selected {
+  border: 8px solid #585858;
+}
+
+.step3-color-grid-item-8.selected {
+  border: 8px solid #578F0E;
+}
+
+.step3-color-grid-item-9.selected {
+  border: 8px solid #E08888;
+}
+
+.step3-color-grid-item-10.selected {
+  border: 8px solid #A23ED0;
+}
+
+.step3-color-grid-item-11.selected {
+  border: 8px solid #FFACAC;
+}
+
+.step3-color-grid-item-12.selected {
+  border: 8px solid #289948;
+}
+
+.step3-color-grid-item-13.selected {
+  border: 8px solid #7085F4;
+}
+
+.step3-color-grid-item-14.selected {
+  border: 8px solid #FF98D6;
+}
+
+.step3-color-grid-item-15.selected {
+  border: 8px solid #FF833E;
+}
+
+.step3-color-grid-item-16.selected {
+  border: 8px solid #0087B1;
+}
+
+.flower-image-container {
+  margin-right: 15px;
 }

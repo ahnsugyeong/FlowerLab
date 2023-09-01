@@ -1,7 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import '../styles/Step3.css';
 
 const Step3 = () => {
+  const [selectedItem, setSelectedItem] = useState(-1);
+
+  const handleItemClick = (index) => {
+    if (selectedItem === index) {
+      setSelectedItem(-1);
+    } else {
+      setSelectedItem(index);
+    }
+  };
+
+  const colorItems = [
+    '회색',
+    '진한 파란색',
+    '하얀색',
+    '연한 노란색',
+    '진한 노란색',
+    '진한 청색',
+    '검은색',
+    '어두운 연두색',
+    '어두운 빨간색',
+    '연한 보라색',
+    '연한 빨간색',
+    '어두운 초록색',
+    '연한 청색',
+    '진한 분홍색',
+    '연한 주황색',
+    '밝은 하늘색'
+  ];
+
   return (
     <div className="step3-container">
       <div class="step3-grid-item-1"></div>
@@ -21,28 +51,31 @@ const Step3 = () => {
 
 
         <div className="step3-color-grid">
-          <div className="step3-color-grid-item-1">회색</div>
-          <div className="step3-color-grid-item-2">진한 파란색</div>
-          <div className="step3-color-grid-item-3">하얀색</div>
-          <div className="step3-color-grid-item-4">연한 노란색</div>
-          <div className="step3-color-grid-item-5">진한 노란색</div>
-          <div className="step3-color-grid-item-6">진한 청색</div>
-          <div className="step3-color-grid-item-7">검은색</div>
-          <div className="step3-color-grid-item-8">어두운 연두색</div>
-          <div className="step3-color-grid-item-9">어두운 빨간색</div>
-          <div className="step3-color-grid-item-10">연한 보라색</div>
-          <div className="step3-color-grid-item-11">연한 빨간색</div>
-          <div className="step3-color-grid-item-12">어두운 초록색</div>
-          <div className="step3-color-grid-item-13">연한 청색</div>
-          <div className="step3-color-grid-item-14">진한 분홍색</div>
-          <div className="step3-color-grid-item-15">연한 주황색</div>
-          <div className="step3-color-grid-item-16">밝은 하늘색</div>
+          {colorItems.map((color, index) => (
+            <div
+              key={index}
+              className={`step3-color-grid-item-${index + 1} ${selectedItem === index ? 'selected' : ''
+                }`}
+              onClick={() => handleItemClick(index)}
+              style={{
+                opacity: selectedItem === -1 || selectedItem === index ? 1 : 0.4,
+              }}
+            >
+              {selectedItem === index && (
+
+                <div className="flower-image-container">
+                  <img
+                    src={require(`../assets/flower-icon-${index + 1}.png`)}
+                    alt={`${color}에 대한 꽃 이미지`}
+                  />
+                </div>
+
+              )}
+              {color}
+            </div>
+          ))}
         </div>
 
-
-        <div class="step3-next-btn">
-          →
-        </div>
 
       </div>
       <div class="step3-grid-item-3"></div>

@@ -28,7 +28,7 @@ function Step1() {
                 <div className="text-title">
                     CONTENTS
                 </div>
-                <textarea class="content" placeholder="Ex) 예시 컨텐츠 작성 힌트 텍스트 작성"></textarea>
+                <textarea class="content" placeholder="Ex) 가장 친한 친구가 이번 봄에 자신의 꿈에 조금 더 가까워지기 위해 미국으로 유학을 가게 되었어. 사랑과 존경의 마음을 담아 친구의 꿈을 응원하고 우리의 변치 않을 우정을 담은 꽃다발을 선물하고 싶어."></textarea>
                 <div class="step1-next-btn">
                     →
                 </div>

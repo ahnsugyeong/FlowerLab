@@ -18,6 +18,10 @@ const Step2 = () => {
 
         <ImageSlider />
 
+        <div class="step2-next-btn">
+          →
+        </div>
+
       </div>
       <div className="step2-grid-item-3"></div>
     </div>

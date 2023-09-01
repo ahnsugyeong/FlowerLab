@@ -1,11 +1,11 @@
 body {
-    background-color: #FEFAF4;
+    background-color: #FFFFF6;
     margin: 0;
 }
 
 .step1-container {
     height: 100vh;
-    background-color: #FEFAF4;
+    background-color: #FFFFF6;
     background-image: none;
     overflow: hidden;
 
@@ -16,58 +16,58 @@ body {
     grid-template-rows: 1fr 14fr 1fr;
 
 
-    border-bottom: 1px solid #5D4D3A;
+    border-bottom: 1px solid #47587A;
 }
 
 .step1-grid-item-1,
 .step1-grid-item-4 {
-    border-left: 1px solid #5D4D3A;
-    border-right: 1px solid #5D4D3A;
-    border-bottom: 1px solid #5D4D3A;
+    border-left: 1px solid #47587A;
+    border-right: 1px solid #47587A;
+    border-bottom: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-grid-item-5,
 .step1-grid-item-8 {
-    border-left: 1px solid #5D4D3A;
-    border-right: 1px solid #5D4D3A;
-    border-bottom: 1px solid #5D4D3A;
+    border-left: 1px solid #47587A;
+    border-right: 1px solid #47587A;
+    border-bottom: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-grid-item-9,
 .step1-grid-item-12 {
-    border-left: 1px solid #5D4D3A;
-    border-right: 1px solid #5D4D3A;
+    border-left: 1px solid #47587A;
+    border-right: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-grid-item-2,
 .step1-grid-item-6 {
-    border-bottom: 1px solid #5D4D3A;
-    border-right: 1px solid #5D4D3A;
+    border-bottom: 1px solid #47587A;
+    border-right: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-grid-item-10 {
-    border-right: 1px solid #5D4D3A;
+    border-right: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-grid-item-3,
 .step1-grid-item-7 {
-    border-bottom: 1px solid #5D4D3A;
+    border-bottom: 1px solid #47587A;
     padding: 10px;
     text-align: center;
 }
 
 .step1-title {
-    color: #5D4D3A;
+    color: #47587A;
     font-size: 60px;
     font-weight: 600;
     line-height: 80px;
@@ -79,7 +79,7 @@ body {
 }
 
 .step1-content {
-    color: #7C7062;
+    color: #797E89;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -91,7 +91,7 @@ body {
 }
 
 .text-title {
-    color: #5D4D3A;
+    color: #47587A;
     font-size: 40px;
     font-weight: 500;
     line-height: 60px;
@@ -115,9 +115,9 @@ body {
         linear-gradient(to right, transparent 10px, transparent 10px),
         linear-gradient(to left, transparent 10px, transparent 10px),
         repeating-linear-gradient(transparent, transparent 30px, #ccc 30px, #ccc 31px, transparent 31px);
-    line-height: 24px;
+    line-height: 31px;
     resize: none;
-    padding: 4px;
+    padding: 6px;
 
     font-family: "Pretendard-Regular";
     font-size: 16px;
@@ -140,7 +140,7 @@ body {
 
 .step1-next-btn {
     font-size: 50px;
-    color: #5D4D3A;
+    color: #47587A;
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -148,13 +148,13 @@ body {
 }
 
 .step1-number {
-    color: #5D4D3A;
+    color: #47587A;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #5D4D3A;
+    color: #47587A;
     position: absolute;
     right: 20px;
     top: 20px;
