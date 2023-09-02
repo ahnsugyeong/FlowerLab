@@ -17,7 +17,6 @@
     width: 280px;
     height: 348px;
     border-radius: 200px 200px 0px 0px;
-    height: 348px;
     margin-right: 28px;
     position: relative;
     cursor: pointer;
@@ -42,7 +41,7 @@
 .step2-design-grid-item-4.clicked,
 .step2-design-grid-item-5.clicked,
 .step2-design-grid-item-6.clicked {
-    border: 8px solid #B99974;
+    border: 8px solid #47587A;
     position: relative;
     z-index: 1;
 }
@@ -114,6 +113,10 @@
     opacity: 6%;
 }
 
+.step2-design-next-btn:hover {
+    opacity: 10%;
+}
+
 .step2-design-prev-btn {
     position: absolute;
     left: 30px;
@@ -126,4 +129,8 @@
     color: #ffffff;
     background-color: #000000;
     opacity: 6%;
+}
+
+.step2-design-prev-btn:hover {
+    opacity: 10%;
 }

@@ -1,0 +1,57 @@
+/* StoreImgList.css */
+
+.storeImgBox {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .storeImgUl {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .slideInner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .storeImgLi {
+    flex: 0 0 auto;
+    margin-right: 14px; /* SLIDE_GAP 값에 맞게 조정하세요 */
+  }
+  
+  .storeImgLi:last-child {
+    margin-right: 0;
+  }
+  
+  .slideArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 2;
+    font-size: 20px;
+    color: #333;
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .slideArrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  
+  .arrowLeft {
+    left: 0;
+  }
+  
+  .arrowRight {
+    right: 0;
+  }
+  

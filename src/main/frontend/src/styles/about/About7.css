@@ -1,0 +1,27 @@
+.about7-background-container {
+    height: 285px;
+    background-color: #D5D76A;
+    display: flex;
+    align-items: center;
+}
+
+.about7-text {
+    color: #FFFFFF;
+    font-size: 148px;
+    font-weight: 500;
+    line-height: 164px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin: 60px;
+    display: flex;
+    overflow: hidden;
+    margin-right: 0;
+}
+
+.about7-text-1,
+.about7-text-2 {
+    overflow: visible;
+    white-space: nowrap;
+    margin-right: 100px;
+}
+

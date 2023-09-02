@@ -21,7 +21,9 @@ function About() {
             <About2 />
             <About3 />
             <About4 />
-
+            <About5 />
+            <About6 />
+            <About7 />
         </div>
 
     );

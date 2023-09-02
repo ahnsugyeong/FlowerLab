@@ -5,19 +5,16 @@ import '../../styles/about/About7.css'
 function About7() {
 
     return (
-
-        <div className="about-background-container">
-            <div className="about-info">
-                <div className="about-title">
-                    ABOUT
+        <div className="about7-background-container">
+            <div className="about7-text">
+                <div className="about7-text-1">
+                    FLOWER LAB
                 </div>
-                <div className="about-content">
-                    ; FLOWER LAB
+                <div className="about7-text-2">
+                    FLOWER LAB
                 </div>
             </div>
-
         </div>
-
     );
 }
 

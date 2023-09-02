@@ -33,7 +33,7 @@ const Step3 = () => {
   ];
 
   return (
-    <div className="step3-container">
+    <div id="step3" className="step3-container">
       <div class="step3-grid-item-1"></div>
       <div class="step3-grid-item-2">
         <div className="step3-title">
@@ -58,7 +58,7 @@ const Step3 = () => {
                 }`}
               onClick={() => handleItemClick(index)}
               style={{
-                opacity: selectedItem === -1 || selectedItem === index ? 1 : 0.4,
+                opacity: selectedItem === -1 || selectedItem === index ? 1 : index === 2 ? 0.4 : 0.7,
               }}
             >
               {selectedItem === index && (

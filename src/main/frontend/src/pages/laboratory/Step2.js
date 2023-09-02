@@ -4,8 +4,15 @@ import ImageSlider from '../../components/ImageSlider';
 
 const Step2 = () => {
 
+  const handleNextClick = () => {
+    const step3Element = document.getElementById('step3');
+    if (step3Element) {
+      step3Element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className="step2-container">
+    <div id="step2" className="step2-container">
       <div className="step2-grid-item-1"></div>
       <div className="step2-grid-item-2">
         <div className="step2-title">STEP 2</div>
@@ -18,7 +25,7 @@ const Step2 = () => {
 
         <ImageSlider />
 
-        <div class="step2-next-btn">
+        <div class="step2-next-btn" onClick={handleNextClick}>
           →
         </div>
 
