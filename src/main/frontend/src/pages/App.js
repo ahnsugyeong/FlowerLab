@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './about/About';
 import Laboratory from './laboratory/Laboratory';
 
-
 import StoreImgList from './laboratory/StoreImgList';
+import ScrollToTop from '../components/ScrollToTop';
 import Loading from '../components/Loading';
 
 import '../styles/App.css'
@@ -16,13 +16,14 @@ function App() {
 
     return (
         <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<About />} />
-                    <Route path="/laboratory" element={<Laboratory />} />
-                    <Route path="/market" element={<About />} />
-                    <Route path="/storeImgList" element={<StoreImgList imagesData={imagesData}/>} />
-                    <Route path="/loading" element={<Loading />} />
-                </Routes>
+            <ScrollToTop />
+            <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="/laboratory" element={<Laboratory />} />
+                <Route path="/market" element={<About />} />
+                <Route path="/storeImgList" element={<StoreImgList imagesData={imagesData} />} />
+                <Route path="/loading" element={<Loading />} />
+            </Routes>
         </BrowserRouter>
     );
 }

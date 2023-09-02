@@ -10,6 +10,7 @@ body {
 
 .about-info {
     margin-left: 60px;
+    position: relative;
 }
 
 .about-title {
@@ -30,5 +31,140 @@ body {
     line-height: 32px;
     letter-spacing: -0.03em;
     text-align: left;
-    
+
 }
+
+
+
+.about-img-1 {
+    position: absolute;
+    top: 312px;
+    left: 326px;
+}
+
+.about-img-2 {
+    position: absolute;
+    top: 483px;
+    left: 826px;
+}
+
+.about-img-3 {
+    position: absolute;
+    top: 945px;
+    left: 405px;
+}
+
+.about-img-4 {
+    position: absolute;
+    top: 1108px;
+    left: 1000px;
+}
+
+
+.about-img-1-background {
+    width: 294px;
+    height: 343px;
+
+    background-color: #8890A7;
+    position: absolute;
+    top: 414px;
+    left: 353px;
+}
+
+.about-img-2-background {
+    width: 307px;
+    height: 343px;
+
+    background-color: #8890A7;
+    position: absolute;
+    top: 574px;
+    left: 803px;
+}
+
+.about-img-3-background {
+    width: 296px;
+    height: 343px;
+
+    background-color: #A4B286;
+    position: absolute;
+    top: 1061px;
+    left: 419px;
+}
+
+.about-img-4-background {
+    width: 800px;
+    height: 390px;
+
+    background-color: #849DB5;
+    position: absolute;
+    top: 1167px;
+    right: 0;
+}
+
+.about-img-text-1 {
+    position: absolute;
+    
+    text-align: center;
+    right: 30px;
+    bottom: 20px;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+}
+
+.about-img-text-2 {
+    position: absolute;
+    
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+}
+
+.about-img-text-3 {
+    position: absolute;
+    
+    text-align: center;
+    right: 35px;
+    bottom: 30px;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+}
+
+.about-img-text-4 {
+    position: absolute;
+    
+    text-align: center;
+    left: 85px;
+    bottom: 40px;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+}
+
+
+.about-next-btn {
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
