@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+
 .about-background-container {
     background: linear-gradient(165.03deg, #80B5EA 5.4%, #D1C8BD 52.6%, #D5D76A 87.22%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     width: 100%;
@@ -9,11 +10,18 @@ body {
 }
 
 .about-info {
-    margin-left: 60px;
+    width: 1440px;
+    height: 100%;
+    margin: 50px auto;
+    margin-top: 0;
+    margin-bottom: 0;
     position: relative;
 }
 
 .about-title {
+    position: absolute;
+    left: 60px;
+    top: 60px;
     color: #FFFFFF;
 
     font-size: 100px;
@@ -24,6 +32,10 @@ body {
 }
 
 .about-content {
+    position: absolute;
+    left: 60px;
+    top: 184px;
+
     color: #FFFFFF;
 
     font-size: 16px;
@@ -39,25 +51,25 @@ body {
 .about-img-1 {
     position: absolute;
     top: 312px;
-    left: 326px;
+    left: 276px;
 }
 
 .about-img-2 {
     position: absolute;
     top: 483px;
-    left: 826px;
+    left: 776px;
 }
 
 .about-img-3 {
     position: absolute;
     top: 945px;
-    left: 405px;
+    left: 355px;
 }
 
 .about-img-4 {
     position: absolute;
     top: 1108px;
-    left: 1000px;
+    left: 826px;
 }
 
 
@@ -68,7 +80,7 @@ body {
     background-color: #8890A7;
     position: absolute;
     top: 414px;
-    left: 353px;
+    left: 303px;
 }
 
 .about-img-2-background {
@@ -78,7 +90,7 @@ body {
     background-color: #8890A7;
     position: absolute;
     top: 574px;
-    left: 803px;
+    left: 753px;
 }
 
 .about-img-3-background {
@@ -88,11 +100,11 @@ body {
     background-color: #A4B286;
     position: absolute;
     top: 1061px;
-    left: 419px;
+    left: 369px;
 }
 
 .about-img-4-background {
-    width: 800px;
+    width: 664px;
     height: 390px;
 
     background-color: #849DB5;
@@ -103,7 +115,7 @@ body {
 
 .about-img-text-1 {
     position: absolute;
-    
+
     text-align: center;
     right: 30px;
     bottom: 20px;
@@ -117,7 +129,7 @@ body {
 
 .about-img-text-2 {
     position: absolute;
-    
+
     text-align: center;
     right: 20px;
     bottom: 20px;
@@ -131,7 +143,7 @@ body {
 
 .about-img-text-3 {
     position: absolute;
-    
+
     text-align: center;
     right: 35px;
     bottom: 30px;
@@ -145,9 +157,9 @@ body {
 
 .about-img-text-4 {
     position: absolute;
-    
+
     text-align: center;
-    left: 85px;
+    left: 55px;
     bottom: 40px;
     color: #FFFFFF;
 
@@ -167,4 +179,4 @@ body {
     cursor: pointer;
     text-decoration: none;
 
-  }
+}

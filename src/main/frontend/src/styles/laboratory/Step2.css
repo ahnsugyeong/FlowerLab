@@ -4,6 +4,14 @@ body {
 }
 
 .step2-container {
+  width: 1440px;
+  height: 100%;
+  margin: 50px auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.step2-container-grid {
   height: 100vh;
   background-color: #FFFFF6;
   background-image: none;

@@ -1,12 +1,24 @@
-.about5-background-container {
+.about5-container {
     height: 244px;
     width: 100%;
     background-color: #ECEEB7;
+    
+    overflow: hidden;
+}
+
+.about5-background-container {
+    width: 1440px;
+    height: 100%;
+    display: grid;
+    
     justify-content: center;
 
     display: flex;
-    justify-content: space-between; /* 이미지를 왼쪽과 오른쪽에 배치 */
-    overflow: hidden; /* 넘치는 이미지를 잘라냅니다. */
+    justify-content: space-between;
+
+    margin: 50px auto;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .about5-info {

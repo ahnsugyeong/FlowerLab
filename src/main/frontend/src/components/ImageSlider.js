@@ -6,7 +6,7 @@ import '../styles/laboratory/ImageSlider.css';
 const ImageSlider = () => {
     const totalDesigns = 6;
     const itemsPerPage = 4;
-    const slideItemWidth = 400;
+    const slideItemWidth = 730;
     const [currentSlide, setCurrentSlide] = useState(0);
     const [clickedItem, setClickedItem] = useState(null);
 

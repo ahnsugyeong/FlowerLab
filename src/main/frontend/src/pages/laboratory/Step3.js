@@ -34,51 +34,51 @@ const Step3 = () => {
 
   return (
     <div id="step3" className="step3-container">
-      <div class="step3-grid-item-1"></div>
-      <div class="step3-grid-item-2">
-        <div className="step3-title">
-          STEP 3
+      <div className="step3-container-grid">
+        <div class="step3-grid-item-1"></div>
+        <div class="step3-grid-item-2">
+          <div className="step3-title">
+            STEP 3
+          </div>
+          <div className="step3-content">
+            원하시는 꽃다발 색상이 있으신가요? <br />
+            AI가 참고할 수 있도록 아래 중 한가지를 골라주세요!
+          </div>
+
+          <div className="step3-number">
+            03
+          </div>
+
+          <div className="step3-color-grid">
+            {colorItems.map((color, index) => (
+              <div
+                key={index}
+                className={`step3-color-grid-item-${index + 1} ${selectedItem === index ? 'selected' : ''
+                  }`}
+                onClick={() => handleItemClick(index)}
+                style={{
+                  opacity: selectedItem === -1 || selectedItem === index ? 1 : index === 2 ? 0.4 : 0.7,
+                }}
+              >
+                {selectedItem === index && (
+
+                  <div className="flower-image-container">
+                    <img
+                      src={require(`../../assets/flower-icon-${index + 1}.png`)}
+                      alt={`${color}에 대한 꽃 이미지`}
+                    />
+                  </div>
+
+                )}
+                {color}
+              </div>
+            ))}
+          </div>
+
+
         </div>
-        <div className="step3-content">
-          원하시는 꽃다발 색상이 있으신가요? <br />
-          AI가 참고할 수 있도록 아래 중 한가지를 골라주세요!
-        </div>
-
-        <div className="step3-number">
-          03
-        </div>
-
-
-
-        <div className="step3-color-grid">
-          {colorItems.map((color, index) => (
-            <div
-              key={index}
-              className={`step3-color-grid-item-${index + 1} ${selectedItem === index ? 'selected' : ''
-                }`}
-              onClick={() => handleItemClick(index)}
-              style={{
-                opacity: selectedItem === -1 || selectedItem === index ? 1 : index === 2 ? 0.4 : 0.7,
-              }}
-            >
-              {selectedItem === index && (
-
-                <div className="flower-image-container">
-                  <img
-                    src={require(`../../assets/flower-icon-${index + 1}.png`)}
-                    alt={`${color}에 대한 꽃 이미지`}
-                  />
-                </div>
-
-              )}
-              {color}
-            </div>
-          ))}
-        </div>
-
-
+        <div class="step3-grid-item-3"></div>
       </div>
-      <div class="step3-grid-item-3"></div>
     </div>
   );
 };

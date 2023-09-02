@@ -9,7 +9,7 @@ function LaboratoryHeader() {
     return (
         <div className="laboratory-header-background-container">
             <Nav />
-            
+
             <div className="laboratory-header-container">
 
                 <img
