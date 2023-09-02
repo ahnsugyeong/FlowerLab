@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 
 import '../../styles/laboratory/Step3.css'
 
-const Step3 = () => {
-  const [selectedItem, setSelectedItem] = useState(-1);
+const Step3 = ({ setSelectedItem }) => {
+  const [selectedItem, setLocalSelectedItem] = useState(-1);
 
   const handleItemClick = (index) => {
     if (selectedItem === index) {
+      setLocalSelectedItem(-1);
       setSelectedItem(-1);
     } else {
+      setLocalSelectedItem(index);
       setSelectedItem(index);
     }
   };

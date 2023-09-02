@@ -2,14 +2,17 @@ import React from 'react';
 import '../../styles/laboratory/Step2.css'
 import ImageSlider from '../../components/ImageSlider';
 
-const Step2 = () => {
+const Step2 = ({ setClickedItem }) => {
 
   const handleNextClick = () => {
     const step3Element = document.getElementById('step3');
     if (step3Element) {
       step3Element.scrollIntoView({ behavior: 'smooth' });
     }
+    setClickedItem(/* 클릭된 항목의 인덱스를 넣으세요 */);
+
   };
+  
 
   return (
     <div id="step2" className="step2-container">
@@ -24,7 +27,7 @@ const Step2 = () => {
 
           <div className="step2-number">02</div>
 
-          <ImageSlider />
+          <ImageSlider setClickedItem={setClickedItem} />
 
           <div class="step2-next-btn" onClick={handleNextClick}>
             →

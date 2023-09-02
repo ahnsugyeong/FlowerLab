@@ -3,12 +3,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import '../styles/laboratory/ImageSlider.css';
 
 
-const ImageSlider = () => {
+const ImageSlider = ({ setClickedItem }) => {
     const totalDesigns = 6;
     const itemsPerPage = 4;
-    const slideItemWidth = 730;
+    const slideItemWidth = 760;
     const [currentSlide, setCurrentSlide] = useState(0);
-    const [clickedItem, setClickedItem] = useState(null);
+    const [clickedItem, setLocalClickedItem] = useState(null);
+    
 
 
     const sliderTrackRef = useRef(null);
@@ -23,8 +24,10 @@ const ImageSlider = () => {
 
     const handleItemClick = (index) => {
         if (clickedItem === index) {
+            setLocalClickedItem(null);
             setClickedItem(null);
         } else {
+            setLocalClickedItem(index);
             setClickedItem(index);
         }
     };

@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import '../../styles/laboratory/Step1.css'
 
-function Step1() {
+function Step1({ setStep1Text }) {
+    const [textValue, setTextValue] = useState('');
+
 
     const handleNextClick = () => {
         const step2Element = document.getElementById('step2');
         if (step2Element) {
             step2Element.scrollIntoView({ behavior: 'smooth' });
         }
+        setStep1Text(textValue);
     };
+
+    const handleTextareaChange = (event) => {
+        setTextValue(event.target.value);
+        setStep1Text(textValue);
+      };
 
     return (
         <div className="step1-container">
@@ -36,7 +44,7 @@ function Step1() {
                     <div className="text-title">
                         CONTENTS
                     </div>
-                    <textarea class="content" placeholder="Ex) 가장 친한 친구가 이번 봄에 자신의 꿈에 조금 더 가까워지기 위해 미국으로 유학을 가게 되었어. 사랑과 존경의 마음을 담아 친구의 꿈을 응원하고 우리의 변치 않을 우정을 담은 꽃다발을 선물하고 싶어."></textarea>
+                    <textarea class="content" value={textValue} onChange={handleTextareaChange} placeholder="Ex) 가장 친한 친구가 이번 봄에 자신의 꿈에 조금 더 가까워지기 위해 미국으로 유학을 가게 되었어. 사랑과 존경의 마음을 담아 친구의 꿈을 응원하고 우리의 변치 않을 우정을 담은 꽃다발을 선물하고 싶어."></textarea>
                     <div class="step1-next-btn" onClick={handleNextClick}>
                         →
                     </div>
