@@ -17,7 +17,8 @@
     width: 280px;
     height: 348px;
     border-radius: 200px 200px 0px 0px;
-    margin-right: 28px;
+    margin-right: 14px;
+    margin-left: 14px;
     position: relative;
     cursor: pointer;
 
@@ -136,6 +137,36 @@
     opacity: 10%;
 }
 
-.step2-design-comment-1 {
-    
+.step2-design-comment-container {
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step2-design-comment {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    color: #47587A;
+    opacity: 1;
+
+}
+
+.image-blur-overlay {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    backdrop-filter: blur(10px);
 }
