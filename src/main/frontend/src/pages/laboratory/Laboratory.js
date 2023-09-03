@@ -21,7 +21,7 @@ function Laboratory() {
       setTimeout(() => {
         setIsLoading(false);
         navigate(`/result`);
-      }, 2000);
+      }, 5000);
     }
   }, [isLoading, navigate]);
 
@@ -33,9 +33,8 @@ function Laboratory() {
   return (
     <div>
       {isLoading ? (
-        <Loading /> // isLoading이 true일 때 로딩 페이지 표시
+        <Loading />
       ) : (
-        // isLoading이 false일 때 다른 컴포넌트 표시
         <>
           <LaboratoryHeader />
           <Step1 setStep1Text={setStep1Text} />

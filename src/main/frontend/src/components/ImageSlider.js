@@ -9,7 +9,7 @@ const ImageSlider = ({ setClickedItem }) => {
     const slideItemWidth = 760;
     const [currentSlide, setCurrentSlide] = useState(0);
     const [clickedItem, setLocalClickedItem] = useState(null);
-    
+
 
 
     const sliderTrackRef = useRef(null);
@@ -59,6 +59,7 @@ const ImageSlider = ({ setClickedItem }) => {
                                     className={`step2-design-grid-item-${itemIndex} ${clickedItem === itemIndex ? 'clicked' : ''}`}
                                     onClick={() => handleItemClick(itemIndex)}
                                 >
+
                                     <div className={`star-group ${clickedItem === itemIndex ? 'visible' : ''} ${itemIndex % 2 === 0 ? 'right' : 'left'}`}>
                                         <div className="star star-1"></div>
                                         <div className="star star-2"></div>
@@ -71,12 +72,13 @@ const ImageSlider = ({ setClickedItem }) => {
                                             opacity: clickedItem === null ? 1 : clickedItem === itemIndex ? 1 : 0.4,
                                         }}
                                     />
+
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
-                
+
 
             </div>
             {

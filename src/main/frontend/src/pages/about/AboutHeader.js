@@ -8,10 +8,17 @@ import { Link } from 'react-router-dom';
 
 function AboutHeader() {
 
+  const handleNextClick = () => {
+    const about1Element = document.getElementById('about1');
+    if (about1Element) {
+      about1Element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="about-header-container">
       <div className="background-container">
-        <Nav className="main-nav" />
+        <Nav className="about-main-nav" />
         <div className="main-logo">
           FLOWER<br />LAB
         </div>
@@ -21,17 +28,17 @@ function AboutHeader() {
         </div>
 
         <div className="main-menu">
-          <Link to={'/laboratory'} className="no-text-decoration">
-            <div className="main-menu-item-1">
-              <div className="main-menu-item-text">꽃다발 추천받아서 주문하기</div>
+          
+            <div className="main-menu-item-1" onClick={handleNextClick}>
+              <div className="main-menu-item-text">플라워랩 서비스 더 알아보기</div>
               <img src={MainFlower} alt="꽃" className="main-menu-item-img" />
             </div>
-          </Link>
+          
           <Link to={'/laboratory'} className="no-text-decoration">
-            <div className="main-menu-item-2">
-              <div className="main-menu-item-text">AI 꽃다발 생성하기</div>
-              <img src={MainFlower} alt="꽃" className="main-menu-item-img" />
-            </div>
+          <div className="main-menu-item-2">
+            <div className="main-menu-item-text">AI 꽃다발 추천받으러 가기</div>
+            <img src={MainFlower} alt="꽃" className="main-menu-item-img" />
+          </div>
           </Link>
         </div>
       </div>

@@ -10,7 +10,6 @@ function Loading() {
             <div className="result-background">
 
             </div>
-            
         </div>
 
     );

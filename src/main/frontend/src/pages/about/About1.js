@@ -8,7 +8,7 @@ function About1() {
 
     return (
 
-        <div className="about-background-container">
+        <div id="about1" className="about-background-container">
             <div className="about-info">
                 <div className="about-title">
                     ABOUT
@@ -16,6 +16,27 @@ function About1() {
                 <div className="about-content">
                     ; FLOWER LAB
                 </div>
+
+                <img
+                    src={require(`../../assets/about-line-1.png`)}
+                    alt={`about-line-1`}
+                    className="about-line-1"
+                />
+                <img
+                    src={require(`../../assets/about-line-2.png`)}
+                    alt={`about-line-2`}
+                    className="about-line-2"
+                />
+                <img
+                    src={require(`../../assets/about-line-3.png`)}
+                    alt={`about-line-3`}
+                    className="about-line-3"
+                />
+
+
+
+
+                <div className="about-index-1">1</div>
 
                 <div className="about-img-1-background">
                     <div className="about-img-text-1">
@@ -29,7 +50,7 @@ function About1() {
                     className="about-img-1"
                 />
 
-
+                <div className="about-index-2">2</div>
                 <div className="about-img-2-background">
                     <div className="about-img-text-2">
                         혹은 친한 친구의 졸업식. 친구에게 잘 어울릴<br />
@@ -42,6 +63,7 @@ function About1() {
                     className="about-img-2"
                 />
 
+                <div className="about-index-3">3</div>
                 <div className="about-img-3-background">
                     <div className="about-img-text-3">
                         꽃집에 갔지만 막상 어떻게 꽃다발을<br />
@@ -54,6 +76,8 @@ function About1() {
                     className="about-img-3"
                 />
 
+
+                <div className="about-index-4">4</div>
                 <div className="about-img-4-background">
                     <div className="about-img-text-4">
                         플라워랩이 당신의 고민을 해결해 드릴게요.<br />

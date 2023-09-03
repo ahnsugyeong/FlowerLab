@@ -180,3 +180,66 @@ body {
     text-decoration: none;
 
 }
+
+
+.about-index-1 {
+    position: absolute;
+    color: #EEEEEE;
+    top: 252px;
+    left: 550px;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+}
+
+.about-index-2 {
+    position: absolute;
+    color: #EEEEEE;
+    top: 424px;
+    left: 1034px;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+}
+
+.about-index-3 {
+    position: absolute;
+    color: #EEEEEE;
+    top: 887px;
+    left: 355px;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+}
+
+.about-index-4 {
+    position: absolute;
+    color: #EEEEEE;
+    top: 1048px;
+    left: 826px;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+}
+
+.about-line-1 {
+    position: absolute;
+    top: 490px;
+    left: 498px;
+}
+
+.about-line-2 {
+    position: absolute;
+    top: 656.84px;
+    left: 483.61px;
+}
+
+.about-line-3 {
+    position: absolute;
+    top: 1094px;
+    left: 508px;
+}
