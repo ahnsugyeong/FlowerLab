@@ -1,0 +1,24 @@
+.body {
+    margin: 0;
+
+}
+
+.result-container {
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 3543px;
+    background: linear-gradient(0deg, #5D4D3A, #5D4D3A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-background {
+    background-image: url('../assets/result-main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 100%;
+}

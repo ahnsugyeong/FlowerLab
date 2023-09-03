@@ -5,13 +5,11 @@ import Laboratory from './laboratory/Laboratory';
 
 import ScrollToTop from '../components/ScrollToTop';
 import Loading from '../components/Loading';
+import Result from '../pages/Result'
 
 import '../styles/App.css'
 
 function App() {
-
-    const imagesData = ['flower1.png', 'flower2.png', 'flower3.png', 'flower4.png', 'flower5.png', 'flower6.png'];
-
 
     return (
         <BrowserRouter>
@@ -20,6 +18,7 @@ function App() {
                 <Route path="/" element={<About />} />
                 <Route path="/laboratory" element={<Laboratory />} />
                 <Route path="/market" element={<About />} />
+                <Route path="/result" element={<Result />} />
                 <Route path="/loading" element={<Loading />} />
             </Routes>
         </BrowserRouter>
