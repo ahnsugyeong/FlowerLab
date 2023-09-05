@@ -9,10 +9,11 @@ body {
     margin: 50px auto;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 
 .step1-container-grid {
-    height: 100vh;
+    height: 825px;
     background-color: #FFFFF6;
     background-image: none;
     overflow: hidden;

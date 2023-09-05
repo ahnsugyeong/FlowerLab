@@ -7,6 +7,7 @@ import Step2 from './Step2';
 import Step3 from './Step3';
 import SubmitButton from '../../components/SubmitButton';
 import Loading from '../../components/Loading';
+import About7 from '../about/About7';
 
 function Laboratory() {
   const [step1Text, setStep1Text] = useState('');
@@ -40,8 +41,10 @@ function Laboratory() {
           <Step1 setStep1Text={setStep1Text} />
           <Step2 setClickedItem={setClickedItem} />
           <Step3 setSelectedItem={setSelectedItem} />
-          {step1Text && clickedItem !== null && selectedItem !== -1 && (
+          {(step1Text && clickedItem !== null && selectedItem !== -1) ? (
             <SubmitButton onClick={handleSubmitButtonClick} />
+          ) : (
+            <About7 />
           )}
         </>
       )}
