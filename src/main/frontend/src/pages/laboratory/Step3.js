@@ -76,8 +76,6 @@ const Step3 = ({ setSelectedItem }) => {
               </div>
             ))}
           </div>
-
-
         </div>
         <div class="step3-grid-item-3"></div>
       </div>

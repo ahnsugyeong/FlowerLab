@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-width: 1440px;
-    min-height: 770px;
+    min-height: 772px;
 }
 
 .about-header-container {
@@ -21,7 +21,7 @@ body {
 
 .background-container {
     width: 1440px;
-    height: 720px;
+    height: 772px;
     margin: 50px auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -41,7 +41,7 @@ body {
 
     color: #FFFFFF;
     position: absolute;
-    top: 126px;
+    top: 96px;
     left: 59px;
 }
 
@@ -54,14 +54,14 @@ body {
     color: #FFFFFF;
 
     position: absolute;
-    top: 492px;
+    top: 432px;
     left: 60px;
 }
 
 .main-menu {
     width: 630px;
     position: absolute;
-    top: 780px;
+    top: 620px;
     left: 52px;
 }
 

@@ -84,13 +84,14 @@ body {
 }
 
 .step3-color-grid {
+  position: absolute;
+  left: 158px;
+  top: 204px;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 10px;
-  max-width: 80%;
-  
-  margin: 70px auto;
 
   justify-items: center;
   align-items: center;
@@ -195,14 +196,17 @@ body {
 .step3-color-grid-item-14,
 .step3-color-grid-item-15,
 .step3-color-grid-item-16 {
-  width: 240px;
-  height: 90px;
+  width: 200px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   border: 8px solid transparent;
   margin: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
 
 .step3-color-grid-item-1.selected {
