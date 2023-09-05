@@ -51,7 +51,11 @@ function About6() {
                         </div>
                     </div>
                     <div className="about6-body-right">
-                        {selectedStep === 1 && <img src={require(`../../assets/step1.png`)} alt="Step 1" className="about6-body-img" />}
+                        {selectedStep === 1 &&
+                            <div className="about6-body-img-container">
+                                <img src={require(`../../assets/step1.png`)} alt="Step 1" className="about6-body-img" />
+                            </div>
+                        }
                         {selectedStep === 2 && <img src={require(`../../assets/step2.png`)} alt="Step 2" className="about6-body-img" />}
                         {selectedStep === 3 && <img src={require(`../../assets/step3.png`)} alt="Step 3" className="about6-body-img" />}
 
